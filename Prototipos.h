@@ -24,12 +24,21 @@ void EnunciadoEjer11(void);
 void Punto_ejer12(void);
 void EnunciadoEjer12(void);
 
+void Punto_ejer13(void);
+void EnunciadoEjer13(void);
+
+void Punto_ejer14(void);
+void EnunciadoEjer114(void);
+
 
 ///PROTOTIPO NEGOCIO
 
 float CalcularDescuento(float);
 int Iguales(float,float,float);
 float Maximo(float,float,float);
+float Maximo5(float,float,float,float,float);
+int CantidadPositivos(float,float,float,float,float);
+
 
 ///OTROS
 

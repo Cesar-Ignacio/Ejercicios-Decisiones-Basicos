@@ -318,11 +318,103 @@ void Punto_ejer12()
 
 void EnunciadoEjer12()
 {
-cout<<"EJERCICIO 9"<<endl;
+cout<<"EJERCICIO 12"<<endl;
 cout<<"Enunciado:"<<endl;
 cout<<"12) Hacer un programa para ingresar por teclado tres números y luego determinar e informar "<<endl;
 cout<<"el máximo de ellos."<<endl;
 cout<<"************************"<<endl;
 }
+
+
+void Punto_ejer13()
+{
+
+ float num1, num2,num3,num4,num5;
+ int corte=1;
+
+ while(corte!=0)
+ {
+     EnunciadoEjer13();
+
+     cout<<"Primer numero:";
+     num1=AloNumero();
+     cout<<"Segundo numero:";
+     num2=AloNumero();
+     cout<<"Tercer numero:";
+     num3=AloNumero();
+     cout<<"Cuarto numero:";
+     num4=AloNumero();
+     cout<<"Quinto numero:";
+     num5=AloNumero();
+
+
+     cout<<"Maximo: " << Maximo5(num1,num2,num3,num4,num5)<<endl;
+
+
+     cout<<"*************************"<<endl;
+
+     cout<<"Seguir 1, No seguir 0 :";
+     corte=AloNumero();
+
+
+     system("cls");
+
+ }
+
+
+}
+
+void EnunciadoEjer13()
+{
+    cout<<"EJERCICIO 13"<<endl;
+    cout<<"Enunciado:"<<endl;
+    cout<<"13) Hacer un programa para ingresar por teclado cinco números y luego determinar e informar"<<endl;
+    cout<<"el máximo de ellos."<<endl;
+    cout<<"****************************"<<endl;
+}
+
+
+void Punto_ejer14()
+{
+   float num1,num2,num3,num4,num5;
+   int corte=1;
+   while(corte!=0)
+   {
+       EnunciadoEjer114();
+
+       cout<<"Primer numero:";
+       num1=AloNumero();
+       cout<<"Segundo numero:";
+       num2=AloNumero();
+       cout<<"Tercer numero:";
+       num3=AloNumero();
+       cout<<"Cuarto numero:";
+       num4=AloNumero();
+       cout<<"Quinto numero:";
+       num5=AloNumero();
+
+
+       cout<<"Cantidad de Positivos:"<< CantidadPositivos(num1,num2,num3,num4,num5)<<endl;
+
+       cout<<"**************************"<<endl;
+       cout<<"Seguir 1, No seguir 0:";
+       corte=AloNumero();
+
+       system("cls");
+   }
+
+
+
+}
+
+void EnunciadoEjer114()
+{
+    cout<<"EJERCICIO 14"<<endl;
+    cout<<"Enunciado:"<<endl;
+    cout<<"14) Hacer un programa para poder ingresar por teclado cinco números y luego determinar e"<<endl;
+    cout<<"informar cuantos de esos cinco números son positivos"<<endl;
+    cout<<"*****************************"<<endl;
+}
+
 
 #endif // PUNTOS_H_INCLUDED

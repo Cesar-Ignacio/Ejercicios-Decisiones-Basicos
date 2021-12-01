@@ -91,4 +91,40 @@ float Maximo(float num1, float num2, float num3)
     }
 }
 
+float Maximo5(float num1,float num2,float num3,float num4,float num5)
+{
+    float maximo=Maximo(num1,num2,num3);
+
+    return Maximo(maximo,num4,num5);
+
+}
+
+int CantidadPositivos(float num1,float num2,float num3,float num4,float num5)
+{
+    int cantidadPos=0;
+
+    if(num1>0)
+    {
+        cantidadPos++;
+    }
+    if(num2>0)
+    {
+        cantidadPos++;
+    }
+    if(num3>0)
+    {
+        cantidadPos++;
+    }
+    if(num4>0)
+    {
+        cantidadPos++;
+    }
+    if(num5>0)
+    {
+        cantidadPos++;
+    }
+
+    return cantidadPos;
+}
+
 #endif // DEFINICIONFUNCIONES_H_INCLUDED
