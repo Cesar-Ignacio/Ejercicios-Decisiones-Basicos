@@ -30,6 +30,11 @@ void EnunciadoEjer13(void);
 void Punto_ejer14(void);
 void EnunciadoEjer114(void);
 
+void Punto_ejer15(void);
+void EnunciadoEjer115(void);
+
+void Punto_ejer16(void);
+void EnunciadoEjer116(void);
 
 ///PROTOTIPO NEGOCIO
 
@@ -38,7 +43,9 @@ int Iguales(float,float,float);
 float Maximo(float,float,float);
 float Maximo5(float,float,float,float,float);
 int CantidadPositivos(float,float,float,float,float);
-
+void orden(float,float,float);
+void EstadoAlumno(float,float,float,float);
+int Igualdad(float,float,float,float,int);
 
 ///OTROS
 

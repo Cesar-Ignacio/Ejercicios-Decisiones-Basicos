@@ -127,4 +127,81 @@ int CantidadPositivos(float num1,float num2,float num3,float num4,float num5)
     return cantidadPos;
 }
 
+void orden(float num1, float num2, float num3)
+{
+    float pm,sm,tm;
+
+    if(num1<=num2)
+    {
+        pm=num1;
+        sm=num2;
+
+    }
+    else
+    {
+        pm=num2;
+        sm=num1;
+    }
+    if(num3<=pm)
+    {
+         tm=sm;
+         sm=pm;
+         pm=num3;
+    }
+    else if(num3<=sm)
+    {
+        tm=sm;
+        sm=num3;
+    }
+
+   cout<<pm<<endl;
+   cout<<sm<<endl;
+   cout<<tm<<endl;
+
+
+}
+
+
+void EstadoAlumno(float nota1,float nota2,float nota3, float nota4)
+{
+    if(Igualdad(nota1,nota2,nota3,nota4,7)==4)
+    {
+        cout<<"Promociono "<<endl;
+    }
+
+    else if(Igualdad(nota1,nota2,nota3,nota4,4)>=3)
+    {
+        cout<<"Rinde examen final"<<endl;
+    }
+    else if(Igualdad(nota1,nota2,nota3,nota4,4)>=1)
+    {
+        cout<<"Recupera Parcial"<<endl;
+    }
+    else {
+        cout<<"Recursa la materia"<<endl;
+    }
+
+}
+
+int Igualdad(float nota1,float nota2,float nota3,float nota4,int nota)
+{
+    int cantidad=0;
+    if(nota1>=nota)
+    {
+        cantidad++;
+    }
+    if(nota2>=nota)
+    {
+        cantidad++;
+    }
+    if(nota3>=nota)
+    {
+        cantidad++;
+    }
+    if(nota4>=nota)
+    {
+        cantidad++;
+    }
+    return cantidad;
+}
 #endif // DEFINICIONFUNCIONES_H_INCLUDED

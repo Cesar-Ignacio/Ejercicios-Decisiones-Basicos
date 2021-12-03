@@ -36,6 +36,8 @@ int main()
        cout<<"7: Ejercicio 12"<<endl;
        cout<<"8: Ejercicio 13"<<endl;
        cout<<"9: Ejercicio 14"<<endl;
+       cout<<"10: Ejercicio 15"<<endl;
+       cout<<"11: Ejercicio 16"<<endl;
        cout<<"******************"<<endl;
        cout<<"OPCION:";
        cin>>opc;
@@ -78,8 +80,18 @@ int main()
        {
            Punto_ejer14();
        }
+       if(opc==10)
+       {
+           Punto_ejer15();
+       }
+       if(opc==11)
+       {
+           Punto_ejer16();
+       }
 
     }
+
+
 
 
 

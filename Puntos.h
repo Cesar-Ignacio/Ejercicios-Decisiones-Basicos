@@ -417,4 +417,93 @@ void EnunciadoEjer114()
 }
 
 
+void Punto_ejer15()
+{
+  float num1,num2,num3;
+  int corte=1;
+
+  while(corte!=0)
+  {
+      EnunciadoEjer115();
+      cout<<"Primer numero:";
+      num1=AloNumero();
+      cout<<"Segundo numero:";
+      num2=AloNumero();
+      cout<<"Tercer numero:";
+      num3=AloNumero();
+
+      orden(num1,num2,num3);
+
+      cout<<"**************************"<<endl;
+      cout<<"Seguir 1, No seguir 0:";
+      corte=AloNumero();
+
+      system("cls");
+
+
+  }
+
+
+}
+
+void EnunciadoEjer115()
+{
+    cout<<"EJERCICIO 15"<<endl;
+    cout<<"Enunciado:"<<endl;
+    cout<<"15) Dados tres números enteros y distintos que se ingresan por teclado informarlos ordenados  "<<endl;
+    cout<<"de menor a mayor. Por ejemplo si se ingresa 4,-3,7, se debe mostrar -3,4,7. "<<endl;
+
+    cout<<"*************************"<<endl;
+}
+
+
+void Punto_ejer16()
+{
+
+  float nota1, nota2, nota3, nota4;
+  int corte=1;
+
+  while(corte!=0)
+  {
+    EnunciadoEjer116();
+    cout<<"Primer nota:";
+    nota1=AloNumero();
+    cout<<"Segunda nota:";
+    nota2=AloNumero();
+    cout<<"Tercera nota:";
+    nota3=AloNumero();
+    cout<<"Cuarta nota:";
+    nota4=AloNumero();
+
+
+    EstadoAlumno(nota1,nota2,nota3,nota4);
+
+    cout<<"*********************"<<endl;
+
+    cout<<"Seguir 1, No seguir 0:";
+    corte=AloNumero();
+    system("cls");
+
+  }
+
+
+
+}
+
+void EnunciadoEjer116()
+{
+  cout<<"EJERCICIO 16"<<endl;
+  cout<<"Enunciado:"<<endl;
+  cout<<"16) Hacer un programa para ingresar por teclado las cuatro notas de los exámenes parciales "<<endl;
+  cout<<"obtenidas por un alumno en una determinada materia y luego emitir el cartel aclaratorio que "<<endl;
+  cout<<"corresponda, de acuerdo a las siguientes condiciones:"<<endl;
+
+  cout<<"- “Promociona”, si obtuvo en los cuatro exámenes nota 7 o más."<<endl;
+  cout<<"- “Rinde examen final”, si obtuvo nota 4 o más en por lo menos tres exámenes. "<<endl;
+  cout<<"- “Recupera Parciales”, si obtuvo nota 4 o más en por lo menos uno de los exámenes. "<<endl;
+  cout<<"- “Recursa la materia”, si no aprobó ningún examen parcial. s"<<endl;
+
+  cout<<"*******************"<<endl;
+}
+
 #endif // PUNTOS_H_INCLUDED
