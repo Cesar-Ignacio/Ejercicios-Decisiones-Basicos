@@ -204,4 +204,81 @@ int Igualdad(float nota1,float nota2,float nota3,float nota4,int nota)
     }
     return cantidad;
 }
+
+float ValorPasaje(int des,int comp)
+{
+    if(comp==1)
+    {
+        if(des==1)
+        {
+         return 200;
+        }
+         if(des==2)
+        {
+            return 150;
+        }
+         if(des==3)
+        {
+            return 300;
+        }
+    }
+    else if(comp==2)
+    {
+        if(des==1)
+        {
+         return 220;
+        }
+         if(des==2)
+        {
+            return 165;
+        }
+         if(des==3)
+        {
+            return 330;
+        }
+
+    }
+    else if(comp==3)
+    {
+
+        if(des==1)
+        {
+         return 240;
+        }
+         if(des==2)
+        {
+            return 180;
+        }
+         if(des==3)
+        {
+            return 360;
+        }
+
+    }
+}
+
+void calcularImportePasaje(int ndes,int comp, int capa,int serv)
+{
+
+    float vpaseje=ValorPasaje(ndes,comp);
+    float importe=vpaseje*capa;
+
+
+    cout<<"Importe Inicial:"<<importe<<endl;
+
+    if(serv==2)
+    {
+        importe=importe*1.20;
+        cout<<"Total Importe Diferenciado:"<<importe<<endl;
+    }
+    if(capa>=5)
+    {
+        importe=importe*0.85;
+        cout<<"Descuento 15%:" << importe<<endl;
+    }
+
+    cout<<"Importe final:" << importe <<endl;
+
+}
+
 #endif // DEFINICIONFUNCIONES_H_INCLUDED

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1638498292 source:c:\users\usuario\documents\carpeta de c++\programacion_1\ejercicios decisiones basicos\main.cpp
+1638589353 source:c:\users\usuario\documents\carpeta de c++\programacion_1\ejercicios decisiones basicos\main.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
@@ -8,9 +8,9 @@
 	"DefinicionFunciones.h"
 	"Puntos.h"
 
-1638500182 c:\users\usuario\documents\carpeta de c++\programacion_1\ejercicios decisiones basicos\prototipos.h
+1638589077 c:\users\usuario\documents\carpeta de c++\programacion_1\ejercicios decisiones basicos\prototipos.h
 
-1638501047 c:\users\usuario\documents\carpeta de c++\programacion_1\ejercicios decisiones basicos\definicionfunciones.h
+1638589905 c:\users\usuario\documents\carpeta de c++\programacion_1\ejercicios decisiones basicos\definicionfunciones.h
 
-1638500738 c:\users\usuario\documents\carpeta de c++\programacion_1\ejercicios decisiones basicos\puntos.h
+1638589331 c:\users\usuario\documents\carpeta de c++\programacion_1\ejercicios decisiones basicos\puntos.h
 

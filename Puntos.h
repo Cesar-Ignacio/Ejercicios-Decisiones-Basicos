@@ -506,4 +506,37 @@ void EnunciadoEjer116()
   cout<<"*******************"<<endl;
 }
 
+
+void Punto_ejer21()
+{
+
+    int corte=1;
+    int destino=0,compania=0,cantPasajes=0,servicio=0;
+    while(corte!=0)
+    {
+        cout<<"- Número de Destino (1 a 3):";
+        cin>>destino;
+        cout<<"- Compañía (1, 2, 3):";
+        cin>>compania;
+        cout<<"- Cantidad de pasajes solicitados por el pasajero:";
+        cin>>cantPasajes;
+        cout<<"- Servicio (1= común, 2= diferencial ):";
+        cin>>servicio;
+
+        calcularImportePasaje(destino,compania,cantPasajes,servicio);
+
+        cout<<"************************"<<endl;
+        cout<<"Seguir 1, No seguir 0:";
+        corte=AloNumero();
+        system("cls");
+    }
+
+}
+
+void EnunciadoEjer21()
+{
+
+
+}
+
 #endif // PUNTOS_H_INCLUDED

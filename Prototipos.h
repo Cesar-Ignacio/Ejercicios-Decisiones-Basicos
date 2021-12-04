@@ -36,6 +36,9 @@ void EnunciadoEjer115(void);
 void Punto_ejer16(void);
 void EnunciadoEjer116(void);
 
+void Punto_ejer21(void);
+void EnunciadoEjer21(void);
+
 ///PROTOTIPO NEGOCIO
 
 float CalcularDescuento(float);
@@ -46,6 +49,8 @@ int CantidadPositivos(float,float,float,float,float);
 void orden(float,float,float);
 void EstadoAlumno(float,float,float,float);
 int Igualdad(float,float,float,float,int);
+float ValorPasaje(int,int);
+void calcularImportePasaje(int,int,int,int);
 
 ///OTROS
 
